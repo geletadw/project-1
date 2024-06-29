@@ -1,0 +1,76 @@
+body{background-color: #EEEEEE;}
+
+
+.flex-container{
+    position:absolute;
+    border:solid #EEEEEE;1px;
+    vh: 100%;
+    wh: 100%;
+    padding-left: 40px;
+    margin-left: 80px;
+    margin-bottom: 5px; 
+    }
+  .container-items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 30px;
+  }  
+
+#Medical{
+    color: blue;
+    font-size: larger;
+    margin-left: 6px;
+
+}
+#Register{border:solid blue 1px;
+background-color: blue;
+height: 25px;
+width: 65px;
+color: white;
+border-radius: 5px;}
+
+
+.form{
+    display:flex;
+    width: 260px;
+    border:solid blue 1px;
+    margin-right: 90px;
+    background-color: blue;
+    color: white;
+
+    }  
+.image{
+    display: flex;
+    margin-right:10px ;
+    justify-content: space-around;
+    margin-left: 400px;
+    margin-top:0px;
+    gap: 30px;
+    border-radius: 25px;
+
+}
+
+.image1{
+    position:relative;
+    margin-top: -95px;
+}
+.image2{
+    position: relative;
+    margin-top: -46%;
+    margin-right: 2px;
+
+}
+
+.box3{position:relative;
+    border:solid #7D7AFB 1px;
+    background-color: #7D7AFB;
+margin-right: 60px;
+width: 180px;
+height: 80px;
+margin-left: 600px;
+margin-top:-160px;
+border-radius: 8px;
+}
